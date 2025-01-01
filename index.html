@@ -1,69 +1,722 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap 5 Starter Template with AOS</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- AOS CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<html lang="id">
 
-    <style>
-        .bg-youtube {
-            position: absolute;
-            z-index: -10;
-            width: 100%;
-            height: 90dvh;
-            overflow: hidden;
-        }
-        #videoBg {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    </style>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- Title: Sesuaikan dengan nama artis atau tema -->
+    <title>Jost Saragih Official - Music, Art, and Culture</title>
+
+    <!-- Meta Tag untuk Deskripsi -->
+    <meta content="Jost Saragih Official Website. Discover the latest music, albums, and projects by Jost Saragih. Listen to his latest tracks on Spotify, YouTube, and other platforms." name="description" />
+    
+    <!-- Meta Tag untuk Kata Kunci -->
+    <meta name="keywords" content="Jost Saragih, Music, Artist, Songs, Albums, Spotify, YouTube, Official Website" />
+
+    <!-- Penulis Konten -->
+    <meta name="author" content="Jost Saragih Official" />
+
+    <!-- Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="MobileOptimized" content="320" />
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+
+    <!-- Template Style -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/player.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Jost Saragih Official - Music, Art, and Culture" />
+    <meta property="og:description" content="Discover the latest music, albums, and projects by Jost Saragih. Listen to his latest tracks on Spotify, YouTube, and other platforms." />
+    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:url" content="https://www.jostsaragih.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:title" content="Jost Saragih Official - Music, Art, and Culture" />
+    <meta name="twitter:description" content="Discover the latest music, albums, and projects by Jost Saragih. Listen to his latest tracks on Spotify, YouTube, and other platforms." />
+    <meta name="twitter:image" content="images/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
 </head>
+
+
 <body>
-    <div class="container" style="border: blue solid;">
-        <div class="bg-youtube">
-            <iframe id="videoBg" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- preloader Start -->
+    <div class="jb_preloader">
+        <div class="spinner_wrap">
+            <div class="spinner"></div>
         </div>
-        <div class="row">
-            <div class="col-7"></div>
-            <div class="col-5">
-                <div class="pall row" style="height: fit-content;border: red solid;">
-                    <div class="col-10">
-                        <h4>
-                            Weaver of enigmatic suspense
-                        </h4>
-                        <h1>Agustinus <br> <span>Director</span></h1>
+    </div>
+
+    <!-- head -->
+    <a href="javascript:" id="return-to-top"><i class="flaticon-up-arrow"></i></a>
+    <nav class="cd-dropdown  d-block d-sm-block d-md-block d-lg-none d-xl-none" style="display: none !important;">
+        <h2><a href="index.html"><img src="images/logo1.png" alt="img"></a></h2>
+        <a href="#0" class="cd-close">Close</a>
+        <ul class="cd-dropdown-content">
+            <li>
+                <form class="cd-search">
+                    <input type="search" placeholder="Search...">
+                </form>
+            </li>
+             <li class="has-children">
+                <a href="#">index</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="index.html">index </a></li>
+                    <li><a href="index2.html">index II</a></li>                
+                </ul>
+            </li>
+            <li><a href="about_us.html">about us </a></li>
+            <li class="has-children">
+                <a href="#">pages</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="events.html">events </a></li>
+                    <li><a href="event_single.html">event single</a></li>
+                    <li><a href="error.html">error 404</a></li>
+                    <li><a href="reservation.html">reservation</a></li>
+                    <li><a href="services.html">services</a></li>
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#">gallery</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="gallery_3_drid.html">gallery III</a></li>
+                    <li><a href="gallery_4_grid.html">gallery IV</a></li>
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#">blog</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="blog_single.html">blog single</a></li>
+                    <li><a href="blog_category_right_sidebar.html">blog category</a></li>
+                </ul>
+            </li>
+            <li><a href="contact_us.html">contact us </a></li>
+        </ul>
+    </nav>
+    <div class="topbar dm_cover" style="display: none !important;">
+        <div class="container">
+            <div class="row">
+                <div class="top_header_add">
+                    <ul>
+                        <li class="d-none d-sm-none d-md-none d-lg-block d-xl-block"><a href="#">Have Any Questions? </a></li>
+                        <li><a href="#"><i class="flaticon-close-envelope"></i> example@domex.com</a></li>
+                        <li class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><i class="flaticon-telephone"></i> + 1804578790</li>
+                    </ul>
+                </div>
+                <div class="social_links_wrapper">
+                    <div class="social_links">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="cp_navi_main_wrapper dm_cover"style="display: none !important;">
+        <div class="container">
+            <header class="mobail_menu d-block d-sm-block d-md-block d-lg-none d-xl-none" style="display: none !important;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cp_logo_wrapper">
+                            <a href="index.html">
+                                <img src="images/logo1.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cd-dropdown-wrapper">
+                            <a class="house_toggle" href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve" width="25px" height="25px">
+                                    <g>
+                                        <g>
+                                            <path class="menubar" d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z" fill="#004165" />
+                                        </g>
+                                        <g>
+                                            <path class="menubar" d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z" fill="#004165" />
+                                        </g>
+                                        <g>
+                                            <path class="menubar" d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z" fill="#004165" />
+                                        </g>
+                                        <g>
+                                            <path class="menubar" d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z" fill="#004165" />
+                                        </g>
+                                        <g>
+                                            <path class="menubar" d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z" fill="#004165" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="jb_navigation_wrapper">
+                <div class="mainmenu d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                    <ul class="main_nav_ul">
+                        <li class="has-mega gc_main_navigation" style="display: none !important;"><a href="#" class="gc_main_navigation active_class">index</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent">
+                                    <a href="index.html"><i class="fas fa-square"></i>index </a>
+                                </li>
+                                <li class="parent">
+                                    <a href="index2.html"><i class="fas fa-square"></i>index II</a>
+                                </li>                                                                               
+                            </ul>
+                        </li>
+                        <li><a href="about_us.html" style="display: none !important;" class="gc_main_navigation">about us</a></li>
+                        <li class="has-mega gc_main_navigation" style="display: none !important;"><a href="#" class="gc_main_navigation">pages</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent">
+                                    <a href="events.html"><i class="fas fa-square"></i>events </a>
+                                </li>
+                                <li class="parent">
+                                    <a href="event_single.html"><i class="fas fa-square"></i>event single</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="error.html"><i class="fas fa-square"></i>error 404</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="reservation.html"><i class="fas fa-square"></i>reservation</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="services.html"><i class="fas fa-square"></i>services</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="logo_desing_wrapper">
+                            <a href="#"><img src="images/logo.png" alt="img" style="width: 8dvw;"></a>
+                        </li>
+                        <li  class="has-mega gc_main_navigation" style="display: none !important;"><a href="#" class="gc_main_navigation">gallery</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent">
+                                    <a href="gallery_3_drid.html"> <i class="fas fa-square"></i>gallery III</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="gallery_4_grid.html"> <i class="fas fa-square"></i>gallery IV</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="display: none !important;" class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">blog</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent">
+                                    <a href="blog_category.html"> <i class="fas fa-square"></i>blog category I</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="blog_categories_II.html"> <i class="fas fa-square"></i>blog category II</a>
+                                </li>
+                                <li class="parent">
+                                    <a href="blog_single.html"> <i class="fas fa-square"></i>blog single</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="display: none !important;"><a href="contact_us.html" class="gc_main_navigation">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- head -->
 
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- AOS JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- navi wrapper End -->
+    <!-- Slider Wrapper Start -->
+    <div class="slider-area dm_cover">
+        <div class="main_slider_overly"></div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="carousel-captions caption-1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
+                                    <div class="content">
+                                        <h2 data-animation="animated zoomInDown">Jost Saragih</h2>
+                                        <div data-animation="animated fadeIn" class="slider_border"></div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-captions caption-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
+                                    <div class="content">
+                                        <h2 data-animation="animated zoomInDown">Musisi Batak</h2>
+                                        <div data-animation="animated" class="slider_border"></div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-captions caption-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
+                                    <div class="content">
+                                        <h2 data-animation="animated zoomInDown">Inspiratif Batak</h2>
+                                        <div data-animation="animated" class="slider_border"></div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><span class="number"></span></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""><span class="number"></span></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class=""><span class="number"></span></li>
+                </ol>
+                <div class="carousel-nevigation">
+                    <a class="prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <i class="flaticon-long-arrow-pointing-to-left"></i>
+                        <span>PR<br>EV</span>
+                    </a>
+                    <a class="next" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span>NE<br>XT</span>
+                        <i class="flaticon-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--  Slider Wrapper End -->
+    <!--  category wrapper start-->
+    <div class="category_wrapper dm_cover">
+        <div class="muzieknootjes">
+            <div class="noot-1">
+                &#9835; &#9833;
+            </div>
+            <div class="noot-2">
+                &#9833;
+            </div>
+            <div class="noot-3">
+                &#9839; &#9834;
+            </div>
+            <div class="noot-4">
+                &#9834;
+            </div>
+            <div class="noot-5">
+                &#9835;
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- Karya 1 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="category_content_wrapper">
+                        <div class="category_wrapper_overlay">
+                            <h3 class="party_prcie">Religi</h3>
+                            <figure>
+                                <img src="./garinpoin.com/t1 (1).jpg" alt="Ondos Ganupan Bani Tuhan">
+                            </figure>
+                            <div class="category_btm_wrap">
+                                <p>27 Desember 2024</p>
+                                <h4><a href="#">Ondos Ganupan Bani Tuhan</a></h4>
+                                <p>Jost Saragih, Kevin Sijabat</p>
+                            </div>
+                            <div class="category_hover_box">
+                                <ul>
+                                    <li><a href="https://www.youtube.com/c/JostSaragih" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/jostsaragih" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://open.spotify.com/artist/jostsaragih" target="_blank"><i class="fab fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Karya 2 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="category_content_wrapper">
+                        <div class="category_wrapper_overlay">
+                            <h3 class="party_prcie">Batak</h3>
+                            <figure>
+                                <img src="./garinpoin.com/t1 (3).jpg" alt="Jesus Ngolu Ni Tondingku">
+                            </figure>
+                            <div class="category_btm_wrap">
+                                <p>15 Juni 2024</p>
+                                <h4><a href="#">Jesus Ngolu Ni Tondingku</a></h4>
+                                <p>Jost Saragih</p>
+                            </div>
+                            <div class="category_hover_box">
+                                <ul>
+                                    <li><a href="https://www.youtube.com/c/JostSaragih" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/jostsaragih" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://open.spotify.com/artist/jostsaragih" target="_blank"><i class="fab fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Karya 3 -->
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="category_content_wrapper">
+                        <div class="category_wrapper_overlay">
+                            <h3 class="party_prcie">Pop</h3>
+                            <figure>
+                                <img src="./garinpoin.com/t1 (2).jpg" alt="Bai Ganupan Sidalananmu In">
+                            </figure>
+                            <div class="category_btm_wrap">
+                                <p>10 Maret 2024</p>
+                                <h4><a href="#">Bai Ganupan Sidalananmu In</a></h4>
+                                <p>Jost Saragih</p>
+                            </div>
+                            <div class="category_hover_box">
+                                <ul>
+                                    <li><a href="https://www.youtube.com/c/JostSaragih" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/jostsaragih" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://open.spotify.com/artist/jostsaragih" target="_blank"><i class="fab fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- category wrapper end-->
+    <!-- about wrapper start-->
+    <div class="dm_about_wrapper float_left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-sm-12 col-12 about_responsive_padder">
+                    <div class="dm_heading_wrapper">
+                        <h2>Tentang Bang Jost Saragih</h2>
+                        <div class="bars">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                    <div class="dm_about_text_wrapper dm_cover">
+                        <p>Bang Jost Saragih adalah seorang musisi, penyanyi, dan pencipta lagu berbakat asal Sumatera Utara. 
+                            Dengan suara khas dan lirik yang menyentuh, karya-karya beliau mengangkat tema kehidupan, religi, dan budaya Batak. 
+                            Sejak debutnya, Bang Jost telah memikat hati banyak pendengar di Indonesia dan komunitas internasional.
+                        </p>
+                        <p>
+                            Selain menciptakan musik yang penuh makna, Bang Jost juga aktif membagikan ilmunya kepada generasi muda 
+                            melalui pelatihan musik dan seni. Inspirasi dari perjalanan hidupnya tercermin dalam setiap karya yang diciptakan.
+                        </p>
+                        <ul class="dm_about_link dm_cover">
+                            <li><a href="#"><i class="fas fa-circle"></i> Aktif Berkarya Sejak 2015</a></li>
+                            <li><a href="#"><i class="fas fa-circle"></i> Puluhan Lagu Batak dan Religi</a></li>
+                            <li><a href="#"><i class="fas fa-circle"></i> Inspirasi Banyak Generasi Muda</a></li>
+                            <li><a href="#"><i class="fas fa-circle"></i> Pemain Musik Handal</a></li>
+                        </ul>
+                        <div class="hs_btn_wrapper dm_cover">
+                            <ul>
+                                <li><a href="https://www.youtube.com/c/JostSaragih" target="_blank">Karya di YouTube</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-12 col-lg-6 col-sm-12">
+                    <div class="abt_right_img_wrapper">
+                        <img src="./garinpoin.com/mengajar.jpg" style="width: 100%;" alt="Mengajar" class="img-responsive">
+                        <div class="sw_disc_img_btm">
+                            <img src="./garinpoin.com/bangjosh.png" style="width: 50dvh;margin-top: 10vh;" alt="Bang Jost" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about wrapper end-->
+    <!-- video wrapper start-->
+    <div class="club_video_wrapper dm_cover">
+        <div class="club_video_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+                    <div class="dmx_heading_wraper">
+                        <img src="images/head1.png" alt="img">
+                        <h2>Karya Terbaru Bang Jost Saragih di YouTube</h2>
+                        <div class="bars bars2">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                        <p>Simak karya terbaru Bang Jost Saragih yang kini hadir di YouTube! Saksikan dan nikmati lagu-lagu terbaru beliau yang penuh dengan nuansa Batak dan religi.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="video_player_wrapper">
+                        <img src="./garinpoin.com/ondos_ganupan_thumbnail.jpg" alt="Ondos Ganupan Bani Tuhan" style="width: -webkit-fill-available" class="img-responsive">
+                        <ul>
+                            <li>
+                                <a class="test-popup-link button" rel="external" href="https://www.youtube.com/embed/CvN_JHJk3cM" title="Ondos Ganupan Bani Tuhan"><img src="images/play.png" class="img-responsive" alt="img"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                            <div class="video_player_wrapper video_margin_wrapper">
+                                <img src="./garinpoin.com/jesus_ngolu_thumbnail.jpg" style="width: -webkit-fill-available" alt="Jesus Ngolu Ni Tondingku" class="img-responsive">
+                                <ul>
+                                    <li>
+                                        <a class="test-popup-link button" rel="external" href="https://www.youtube.com/embed/M-MJoGDcR3Y" title="Jesus Ngolu Ni Tondingku"><img src="images/play.png" class="img-responsive" alt="img"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-12">
+                            <div class="video_player_wrapper">
+                                <img src="./garinpoin.com/bai_ganupan_thumbnail.jpg" style="width: -webkit-fill-available" alt="Bai Ganupan Sidalananmu In" class="img-responsive">
+                                <ul>
+                                    <li>
+                                        <a class="test-popup-link button" rel="external" href="https://www.youtube.com/embed/AEl54o7QWVc" title="Bai Ganupan Sidalananmu In"><img src="images/play.png" class="img-responsive" alt="img"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- video wrapper end-->
+    <!-- audio track wrapper start-->
+    <div class="audi_track_wrapper dm_cover">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+                    <div class="dmx_heading_wraper">
+                        <img src="images/head2.png" alt="img">
+                        <h2>Temukan Musik Terbaru dari Bang Jost</h2>
+                        <div class="bars bars2 bar_track">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+    
+                        <p>Dengarkan lagu terbaru dari Bang Jost Saragih! Nikmati musiknya langsung di situs ini.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <div class="column add-bottom">
+                        <div id="mainwrap">
+                            <div id="nowPlay">
+                                <span id="npAction">Terhenti...</span><span id="npTitle"></span>
+                            </div>
+                            <div id="audiowrap">
+                                <!-- Pemutar Audio untuk lagu-lagu Bang Jost -->
+                                <div id="audio0">
+                                    <audio id="audio1" preload controls>
+                                        <!-- <source src="path/to/ondos_ganupan.mp3" type="audio/mp3">Browser Anda tidak mendukung Audio HTML5! 😢 -->
+                                    </audio>
+                                </div>
+                            </div>
+                            <div id="plwrap">
+                                <ul id="plList">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- gallery wrapper start-->
+    <div class="gallery_wrapper portfolio_grid dm_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+                    <div class="dmx_heading_wraper">
+                        <img src="images/head4.png" alt="img">
+                        <h2>our gallery</h2>
+                        <div class="bars bars2">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Filter Gallery -->
+        <ul class="protfoli_filter">
+            <li class="active" data-filter="*"><a href="#"> all</a></li>
+            <li data-filter=".dribbble"><a href="#">images</a></li>
+        </ul>
+    
+        <!-- Galeri Container -->
+        <div class="row portfoli_inner pi_3" id="gallery-items">
+            <!-- Items will be inserted here by JavaScript -->
+        </div>
+    </div>
+    
+    <div class="footer_bottom_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-12 col-sm-12">
+                    <div class="footer_copyright">
+                        <p>  &copy; 2024-25  <a href="#">Jost Saragih</a>. created by <a href="#">lgarin211.</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                    <div class="footer_icon_link">
+                        <ul>
+                            <!-- Instagram Icon -->
+                            <li><a href="https://www.instagram.com/jostsaragihofficial212" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    
+                            <!-- Spotify Icon -->
+                            <li><a href="https://open.spotify.com/artist/jost-saragih" target="_blank"><i class="fab fa-spotify"></i></a></li>
+    
+                            <!-- Apple Music Icon -->
+                            <li><a href="https://music.apple.com/artist/jost-saragih" target="_blank"><i class="fab fa-apple"></i></a></li>
+    
+                            <!-- YouTube Icon -->
+                            <li><a href="https://www.youtube.com/@jostsaragihofficial212" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer section end -->
+    <!--custom js files-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.menu-aim.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/music.js"></script>
+	<script src="js/contact_form.js"></script>
+    <script src="js/custom.js"></script>
+
     <script>
-        AOS.init();
-    </script>
-    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    // Data for the gallery items
+    const galleryItems = [
+        { src: "./garinpoin.com/kegiatan/assets (1).jpg", category: "dribbble", alt: "Image 1" },
+        { src: "./garinpoin.com/kegiatan/assets (2).jpg", category: "dribbble", alt: "Image 2" },
+        { src: "./garinpoin.com/kegiatan/assets (3).jpg", category: "dribbble", alt: "Image 3" },
+        { src: "./garinpoin.com/kegiatan/assets (4).jpg", category: "dribbble", alt: "Image 4" },
+        { src: "./garinpoin.com/kegiatan/assets (5).jpg", category: "dribbble", alt: "Image 5" },
+        { src: "./garinpoin.com/kegiatan/assets (6).jpg", category: "dribbble", alt: "Image 6" },
+        { src: "./garinpoin.com/kegiatan/assets (7).jpg", category: "dribbble", alt: "Image 7" },
+        { src: "./garinpoin.com/kegiatan/assets (8).jpg", category: "dribbble", alt: "Image 8" },
+        { src: "./garinpoin.com/kegiatan/assets (9).jpg", category: "dribbble", alt: "Image 9" }
+    ];
 
-    function videoloader() {
-            const videoBg = document.getElementById('videoBg');
-            var videolink="https://www.youtube.com/embed/M-MJoGDcR3Y?si=0GqA9C1pC2QI_KmH"
+    // Function to create and insert gallery items dynamically
+    function loadGallery() {
+        const galleryContainer = document.getElementById('gallery-items');
 
-            videoBg.src = videolink;
-            
-    }        
+        galleryItems.forEach(item => {
+            const itemElement = document.createElement('div');
+            itemElement.classList.add('p-0', 'portfolio_boxes_width', item.category);
 
-    this.videoloader();
+            const portfolioItem = document.createElement('div');
+            portfolioItem.classList.add('portfolio_item');
 
+            const img = document.createElement('img');
+            img.src = item.src;
+            img.alt = item.alt;
+
+            const portfolioHover = document.createElement('div');
+            portfolioHover.classList.add('portfolio_hover');
+
+            const zoomPopup = document.createElement('div');
+            zoomPopup.classList.add('zoom_popup');
+
+            const imgLink = document.createElement('a');
+            imgLink.classList.add('img-link');
+            imgLink.href = item.src;
+
+            const icon = document.createElement('i');
+            icon.classList.add('flaticon-add-button');
+
+            imgLink.appendChild(icon);
+            zoomPopup.appendChild(imgLink);
+            portfolioHover.appendChild(zoomPopup);
+            portfolioItem.appendChild(img);
+            portfolioItem.appendChild(portfolioHover);
+            itemElement.appendChild(portfolioItem);
+
+            galleryContainer.appendChild(itemElement);
+        });
+    }
+
+    loadGallery();
+});
     </script>
 </body>
+
 </html>
