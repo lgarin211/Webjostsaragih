@@ -17,7 +17,7 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
             playing = false,
-            mediaPath = '../garinpoin.com/music/',
+            mediaPath = 'https://lgarin211.github.io/Webjostsaragih/garinpoin.com/music/',
             extension = '',
             tracks = [
                 {
